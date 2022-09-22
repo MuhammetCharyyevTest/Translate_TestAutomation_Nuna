@@ -154,7 +154,6 @@ public class Translate_StepDefs {
         googleTranslate.inputTextArea.click();
     }
 
-
     @Then("User should see word {string} on the left and {string} on the right sides")
     public void user_should_see_word_on_both_sides(String actualSourceVirtWord, String actualTraslVirtWord) {
         String expectedSourceVirtWord = "Hi!";
